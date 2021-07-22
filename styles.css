@@ -1,0 +1,482 @@
+    * {
+        box-sizing: border-box;
+    }
+    /* ================================================================================================
+                                        MEDIA QUERIES MIN-WIDTH 320px
+    ================================================================================================ */
+    
+    @media screen and (min-width: 320px) {
+        /* ============
+    Global styles 
+    ============ */
+        body {
+            display: flex;
+            margin: 0;
+            justify-content: center;
+            font-family: 'Rubik', sans-serif;
+            max-width: 100%;
+        }
+        #main {
+            padding: 0;
+            margin: 0;
+        }
+        hr {
+            border-top: 50px solid grey;
+            opacity: 0.2;
+        }
+        #main {
+            background-color: #e7e7e7;
+            margin: 0;
+        }
+        span {
+            border-bottom: 5px solid rgb(145, 145, 145);
+        }
+        /* ============
+     First section
+    ============ */
+        #title {
+            display: flex;
+            justify-content: center;
+            flex-direction: column;
+            margin: auto;
+            color: #080808;
+            background-color: #ffffff;
+        }
+        #title h1 {
+            text-align: center;
+            font-size: 3em;
+        }
+        #title h3 {
+            text-align: center;
+        }
+        #image {
+            display: block;
+            max-width: 100%;
+            margin: auto;
+            border-radius: 5% 5% 50% 50%;
+        }
+        #img-caption {
+            text-align: center;
+            font-weight: 700;
+            font-size: 1.5rem;
+        }
+        /* ============
+    Main section 
+    ============ */
+        #tribute-info {
+            margin: auto;
+            display: flex;
+            justify-content: center;
+            flex-direction: column;
+        }
+        #tribute-info h1 {
+            text-align: center;
+        }
+        .flex-info {
+            display: flex;
+            justify-content: center;
+            flex-direction: column;
+            padding: 10% 0;
+        }
+        .flex-info img {
+            width: 50px;
+            display: flex;
+            margin: auto;
+        }
+        /* UNUSED UNUSED UNUSED UNUSED 
+    .info-box {
+        margin: auto;
+        display: flex;
+        justify-content: center;
+        flex-direction: column;
+        width: 70%;
+    }
+    .info-box p {
+        text-align: center;
+    }
+    .info-box img {
+        width: 100%;
+    }
+    .image-box {
+        width: 100%;
+        height: 80vh;
+        background-image: url(images/Muhammad-Ali-Gif.gif);
+        background-size: auto;
+        background-attachment: fixed;
+        background-repeat: no-repeat;
+    }
+    UNUSED UNUSED UNUSED UNUSED */
+        /* ==============
+    Quick facts cards 
+    ============== */
+        .quick-facts {
+            text-align: center;
+            padding-top: 50px;
+        }
+        .box-img {
+            margin: auto;
+            padding: 15px;
+            width: 90%;
+            text-align: center;
+            border: 1px solid rgb(221, 218, 218);
+            border-radius: 25% 10%;
+            display: flex;
+            justify-content: center;
+            flex-direction: row;
+            padding-bottom: 20px;
+            box-shadow: 5px 7px 4px -3px rgb(170, 170, 170);
+        }
+        /* Box cards/quick fact cards */
+        .box-one,
+        .box-three,
+        .box-five {
+            background-color: #F7F6E7;
+            margin-top: 30px;
+        }
+        .box-two,
+        .box-four,
+        .box-six {
+            background-color: #F7F6E7;
+            margin-top: 30px;
+        }
+        /* Box cards/quick fact cards */
+        .box-three {
+            height: 35vh;
+        }
+        .box-img table {
+            margin: auto;
+            text-align: center;
+            max-width: 100%;
+            border: 1px solid black;
+        }
+        .box-img table th {
+            width: 60%;
+            border-bottom: 1px solid black;
+        }
+        .box-img table td {
+            border-bottom: 1px solid black;
+        }
+        .gap-img-one img {
+            margin-top: 10%;
+            width: 100%;
+        }
+        /* ==============
+    Accolades section 
+    ============== */
+        .accoladers-container {
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-content: center;
+        }
+        .accolades-header {
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-content: center;
+        }
+        .accolades-header img {
+            width: 50px;
+            display: flex;
+            margin: auto;
+            padding-bottom: 25px;
+        }
+        .inner-info-box {
+            display: flex;
+            flex-direction: column;
+            align-self: center;
+        }
+        .inner-paragraph {
+            margin: auto;
+            padding-left: 2.5%;
+            padding-right: 2.5%;
+            text-align: start;
+            width: 80%;
+        }
+        .accolades {
+            display: flex;
+            flex-direction: column;
+        }
+        .accolades h3 {
+            text-align: center;
+        }
+        /* ==============
+      Titles section 
+    ============== */
+        .titles-container {
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-content: center;
+        }
+        .titles-header {
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-content: center;
+            padding-bottom: 50px;
+        }
+        .titles-header img {
+            width: 50px;
+            display: flex;
+            margin: auto;
+        }
+        .titles-info {
+            text-align: center;
+        }
+        .gap-img-two img {
+            margin-top: 10%;
+            width: 100%;
+        }
+        /* ==============
+    Wiki link section
+    ============== */
+        .wiki-link {
+            margin-top: 100px;
+            background-color: #614b56cc;
+            color: whitesmoke;
+            padding-top: 20px;
+            text-align: center;
+            font-size: 1.5em;
+        }
+        .footer-small {
+            font-size: 0.8rem;
+        }
+    }
+    /* ================================================================================================
+                                        MEDIA QUERIES MIN-WIDTH 481px
+    ================================================================================================ */
+    
+    @media screen and (min-width: 481px) {
+        /* UNUSED 
+        .image-box {
+            background-position: center;
+        }
+        UNUSED */
+        .box-three {
+            height: 25vh;
+        }
+        .box-three h4 {
+            text-align: center;
+        }
+        .quick-facts img {
+            width: 110px;
+        }
+        .accolades-header img {
+            width: 125px;
+        }
+        .titles-header img {
+            width: 125px;
+        }
+        .gap-img-two img {
+            margin-top: 10%;
+            width: 100%;
+        }
+        .inner-info-box img {
+            width: 70px;
+        }
+    }
+    /* ================================================================================================
+                                        MEDIA QUERIES MIN-WIDTH 641px
+    ================================================================================================ */
+    
+    @media screen and (min-width: 641px) {
+        .inner-info-box img {
+            width: 90px;
+        }
+    }
+    /* ================================================================================================
+                                        MEDIA QUERIES MIN-WIDTH 801px
+    ================================================================================================ */
+    
+    @media screen and (min-width: 801px) {
+        hr {
+            display: none;
+        }
+        /* UNUSED 
+        .info-box {
+            background-color: #F7F6E7;
+            width: 100%;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            margin-bottom: 75px;
+        }
+        .info-box p {
+            max-width: 50%;
+            text-align: center;
+            justify-content: center;
+        }
+        UNUSED */
+        .quick-facts {
+            padding-bottom: 20px;
+            background-color: #F7F6E7;
+        }
+        .query-container-first {
+            display: flex;
+            flex-direction: row;
+            justify-content: center;
+            padding: 50px 0;
+        }
+        .query-container-second {
+            display: flex;
+            flex-direction: row;
+            justify-content: center;
+            background-color: #614b56cc;
+            padding: 50px 0;
+        }
+        .query-container-third {
+            display: flex;
+            flex-direction: row;
+            justify-content: center;
+            padding: 50px 0;
+        }
+        .query-container-fourth {
+            display: flex;
+            flex-direction: row;
+            justify-content: center;
+            background-color: #614b56cc;
+            padding: 50px 0;
+        }
+        .box-img {
+            width: 350px;
+            height: 400px;
+        }
+        #image {
+            width: 70vw;
+        }
+        .gap-img-one {
+            padding: 0;
+            max-width: 100%;
+            height: 100vh;
+            background-image: url(images/24tmag-ali-slide-1EO4-superJumbo\ -\ Copy.jpg);
+            background-position: center;
+            background-size: cover;
+            background-attachment: fixed;
+            clip-path: polygon(0% 0%, 100% 0%, 100% 55%, 50% 100%, 0% 58%);
+        }
+        .gap-img-two {
+            padding: 0;
+            max-width: 100%;
+            height: 100vh;
+            background-image: url(images/112_120_MUHAMMADALI2_LAY_mezz.jpg);
+            background-position: center;
+            background-size: cover;
+            background-attachment: fixed;
+            clip-path: polygon(20% 0%, 80% 0%, 100% 100%, 0% 100%);
+        }
+        .gap-img-one img {
+            display: none;
+        }
+        .gap-img-two img {
+            display: none;
+        }
+        .accolades-header {
+            background-color: #F7F6E7;
+        }
+        .titles-header {
+            background-color: #F7F6E7;
+        }
+        .titles-info {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            flex-direction: row;
+        }
+        .titles-left {
+            padding: 20px;
+            margin: 20px;
+            width: 350px;
+            height: 500px;
+            align-items: center;
+            justify-content: center;
+            background-color: #F7F6E7;
+            border: 1px solid rgb(221, 218, 218);
+            border-radius: 15px 50px;
+            box-shadow: 5px 7px 4px -3px rgb(170, 170, 170);
+        }
+        .titles-right {
+            padding: 20px;
+            margin: 20px;
+            width: 350px;
+            height: 500px;
+            align-items: center;
+            justify-content: center;
+            background-color: #F7F6E7;
+            border: 1px solid rgb(221, 218, 218);
+            border-radius: 15px 50px;
+            box-shadow: 5px 7px 4px -3px rgb(170, 170, 170);
+        }
+        .accolades {
+            flex-direction: row;
+            justify-content: center;
+        }
+        .accolades-flex-one,
+        .accolades-flex-two,
+        .accolades-flex-three {
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            width: 25%;
+            margin: 5%;
+            padding: 20px;
+            text-align: center;
+            background-color: #F7F6E7;
+            box-shadow: 5px 7px 4px -3px rgb(170 170 170);
+            border-radius: 15px 50px;
+            border: 1px solid rgb(221, 218, 218);
+        }
+    }
+    /* ================================================================================================
+                                        MEDIA QUERIES MIN-WIDTH 961px
+    ================================================================================================ */
+    
+    @media screen and (min-width: 961px) {
+        .query-container-first {
+            display: flex;
+            flex-direction: row;
+            justify-content: center;
+        }
+        .query-container-second {
+            display: flex;
+            flex-direction: row;
+            justify-content: center;
+            background-color: #614b56cc;
+            clip-path: polygon(9% 0, 100% 0%, 91% 100%, 0% 100%);
+        }
+        .query-container-third {
+            display: flex;
+            flex-direction: row;
+            justify-content: center;
+        }
+        .query-container-fourth {
+            display: flex;
+            flex-direction: row;
+            justify-content: center;
+            background-color: #614b56cc;
+            clip-path: polygon(0 0, 91% 0, 100% 100%, 9% 100%);
+        }
+        .box-img {
+            margin: 50px;
+            width: 400px;
+            height: 350px;
+        }
+        #image {
+            width: 50vw;
+        }
+    }
+    /* ================================================================================================
+                                        MEDIA QUERIES MIN-WIDTH 1025px
+    ================================================================================================ */
+    
+    @media screen and (min-width: 1025px) {}
+    /* ================================================================================================
+                                        MEDIA QUERIES MIN-WIDTH 1281px
+    ================================================================================================ */
+    
+    @media screen and (min-width: 1281px) {
+        body {
+            margin: 0;
+            width: 100%;
+        }
+    }
